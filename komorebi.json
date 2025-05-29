@@ -1,0 +1,81 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/v0.1.37/schema.json",
+  "app_specific_configuration_path": "$Env:USERPROFILE/applications.json",
+  "window_hiding_behaviour": "Cloak",
+  "cross_monitor_move_behaviour": "Insert",
+  "mouse_follows_focus": false,
+  "default_workspace_padding": 0,
+  "default_container_padding": 1,
+  "border": true,
+  "border_width": 3,
+  "border_offset": -1,
+  "theme": {
+    "palette": "Base16",
+    "name": "CatppuccinFrappe",
+    "stack_border": "Base0B",
+    "stackbar_background": "Base01",
+    "stackbar_focused_text": "Base0B",
+    "stackbar_unfocused_text": "Base05"
+  },
+  "stackbar": {
+    "height": 20,
+    "mode": "OnStack",
+    "label": "Process",
+    "tabs": {
+      "width": 150,
+      "font_size": 16,
+      "background": "#232634",
+      "focused_text": "#a6d189",
+      "font_family": "Cabin"
+    }
+  },
+  "animation": {
+    "enabled": true,
+    "duration": 350,
+    "style": "EaseOutBack",
+    "fps": 120
+  },
+  "transparency": true,
+  "transparency_alpha": 245,
+  "transparency_ignore_rules": [
+    {
+      "kind": "Title",
+      "id": "YouTube",
+      "matching_strategy": "Contains"
+    }
+  ],
+  "monitors": [
+    {
+      "workspaces": [
+        {
+          "name": "I",
+          "layout": "BSP"
+        },
+        {
+          "name": "II",
+          "layout": "VerticalStack"
+        },
+        {
+          "name": "III",
+          "layout": "HorizontalStack"
+        },
+        {
+          "name": "IV",
+          "layout": "UltrawideVerticalStack"
+        },
+        {
+          "name": "V",
+          "layout": "Rows"
+        },
+        {
+          "name": "VI",
+          "layout": "Grid"
+        },
+        {
+          "name": "VII",
+          "layout": "RightMainVerticalStack"
+        }
+      ]
+    }
+  ]
+}
