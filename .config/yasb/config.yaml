@@ -8,7 +8,7 @@ komorebi:
 bars:
   primary-bar:
     enabled: true
-    screens: 
+    screens: ['25UM58G'] 
     class_name: "yasb-bar"
     alignment:
       position: "top"
@@ -60,8 +60,8 @@ widgets:
   server_monitor:
       type: "yasb.server_monitor.ServerMonitor"
       options:
-          label: "<span>\uf510</span>"
-          label_alt: "<span>\uf510</span>{online}/{offline} of {total}"
+          label: "<span>\udb83\udecc </span>"
+          label_alt: "<span>\udb83\udecc </span>{online}/{offline} of {total}"
           ssl_check: true
           ssl_verify: true
           ssl_warning: 10
@@ -140,7 +140,7 @@ widgets:
   home:
    type: "yasb.home.HomeWidget"
    options:
-     label: "<span>\udb81\udf17</span>"
+     label: "<span>\udb84\udf55</span>"
      menu_list:
      - { title: "User Home", path: "~" }
      - { title: "Download", path: "~/Downloads" }
@@ -178,22 +178,22 @@ widgets:
   brightness:
     type: "yasb.brightness.BrightnessWidget"
     options:
-      label: "<span>{icon}</span>{percent}%"
-      label_alt: "<span>{icon}</span> Brightness {percent}%"
+      label: "<span>{icon} </span> {percent}%"
+      label_alt: "<span>{icon} </span> Brightness {percent}%"
       tooltip: true
       hide_unsupported: true
       brightness_toggle_level: [0, 50, 100]
       auto_light: false
-      auto_light_icon: "\udb80\udce1"
+      auto_light_icon: "\udb86\udc00"
       auto_light_night_level: 35
       auto_light_night_start_time: "19:00"
       auto_light_night_end_time: "06:45"
       auto_light_day_level: 75
       brightness_icons: [
-        "\udb80\udcde",  # Icon for 0-25% brightness
-        "\udb80\udcdd",  # Icon for 26-50% brightness
-        "\udb80\udcdf",  # Icon for 51-75% brightness
-        "\udb80\udce0"   # Icon for 76-100% brightness
+        "\udb86\ude4f",  # Icon for 0-25% brightness
+        "\udb86\ude52",  # Icon for 26-50% brightness
+        "\udb86\ude54",  # Icon for 51-75% brightness
+        "\udb86\ude56"   # Icon for 76-100% brightness
       ]
       brightness_menu:
         blur: true
@@ -249,27 +249,27 @@ widgets:
     options:
       label: "<span>{icon}</span> {temp}"
       label_alt: "<span>{icon}</span> {location}: Min {min_temp}, Max {max_temp}, Humidity {humidity}"
-      api_key: 'GENERATE_YOURS AT https://www.weatherapi.com/'
+      api_key: '3efd4175e4cf43d39e7143106252705'
       update_interval: 600 #Update interval in seconds, Min 600
       hide_decimal: true
-      location: ''
+      location: 'Brazil Pato Branco'
       callbacks:
         on_left: "toggle_label"
       icons: 
-        sunnyDay: "\udb81\udd99"
-        clearNight: "\udb81\udd99"
-        cloudyDay: "\udb81\udd99"
-        cloudyNight: "\udb81\udd99"
-        rainyDay: "\udb81\udd99"
-        rainyNight: "\udb81\udd99"
-        snowyIcyDay: "\udb81\udd99"
-        snowyIcyNight: "\udb81\udd99"
-        blizzardDay: "\udb81\udd99"
-        default: "\udb81\udd99"
+        sunnyDay: "\ue30d"
+        clearNight: "\ue32b"
+        cloudyDay: "\ue302"
+        cloudyNight: "\ue32e"
+        rainyDay: "\ue307"
+        rainyNight: "\ue323"
+        snowyIcyDay: "\ue31a"
+        snowyIcyNight: "\ue361"
+        blizzardDay: "\ue36f"
+        default: "\ue374"
   volume:
     type: "yasb.volume.VolumeWidget"
     options:
-      label: "<span>{icon}</span> {level}"
+      label: "<span>{icon} </span> {level}"
       label_alt: "{volume}"
       volume_icons:
         - "\ueee8"  # Icon for muted
@@ -284,7 +284,7 @@ widgets:
   power_menu:
     type: "yasb.power_menu.PowerMenuWidget"
     options:
-      label: "<span>\uf011</span>"
+      label: "<span>\uf011</span> "
       uptime: True
       blur: False
       blur_background: True
@@ -323,8 +323,8 @@ widgets:
   traffic:
     type: "yasb.traffic.TrafficWidget"
     options:
-      label: "<span>\udb82\udcfa</span> \uea9a{download_speed} \ueaa1{upload_speed}"
-      label_alt: "<span>\udb82\udcfa</span> Download {download_speed} | Upload {upload_speed}"
+      label: "<span>\udb82\udfce</span> \uea9a {download_speed} \ueaa1 {upload_speed}"
+      label_alt: "<span>\udb82\udfce</span>   Download {download_speed} | Upload {upload_speed}   "
       update_interval: 1000
       callbacks:
         on_left: 'toggle_label'
@@ -401,10 +401,10 @@ widgets:
     type: "yasb.microphone.MicrophoneWidget"
     options:
       label: "<span>{icon}</span>"
-      label_alt: "<span>{icon}</span> {level}%"
+      label_alt: "<span>{icon}</span> {level}"
       icons:
         normal: "\uf130"
-        muted: "\uf131"
+        muted: "\uf131 "
       callbacks:
         on_left: "toggle_mute"
         on_right: "toggle_label"

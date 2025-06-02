@@ -2,7 +2,7 @@
     font-size: 12px;
     color: #bec8e7;
     font-weight: 500;
-    font-family: "JetBrainsMono NFP";
+    font-family: "Maple Mono NF";
     margin: 0;
     padding: 0;
 }
@@ -70,7 +70,7 @@
     background-color: #232634;
     margin: 1px;
     border-radius: 6px;
-    padding: 0 6px;
+    padding: 6 6px;
     color: #81c8be;
     min-width: 180;
 }
@@ -81,7 +81,7 @@
 .cpu-widget .icon {
     color: #232634;
     padding-right: 6px;
-    padding-left: 6px;
+    padding-left: 2px;
 }
 .cpu-widget .label {
     background-color: #232634;
@@ -97,8 +97,8 @@
 }
 .microphone-widget .icon {
     color: #232634;
-    padding-right: 6px;
-    padding-left: 6px;
+    padding-right: 8px;
+    padding-left: 9px;
 }
 .microphone-widget .label {
     background-color: #232634;
@@ -195,8 +195,8 @@
 }
 .memory-widget .icon {
     color: #232634;
-    padding-right: 6px;
-    padding-left: 6px;
+    padding-right: 9px;
+    padding-left: 2px;
 }
 .memory-widget .label {
     background-color: #232634;
@@ -230,7 +230,7 @@
 .calendar .calendar-table::item {
     background-color: #292c3c;
     color: #c6d0f5;
-    font-family: 'JetBrainsMono NFP', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Maple Mono NF', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 3;
     border: none;
@@ -245,7 +245,7 @@
 .calendar .day-label,
 .calendar .month-label,
 .calendar .date-label {
-    font-family: 'JetBrainsMono NFP', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Maple Mono NF', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
     color: #eebebe;
     font-weight: 700;
@@ -268,7 +268,7 @@
 }
 .volume-widget .icon {
     color: #232634;
-    padding: 0 6px;
+    padding: 0 9;
 }
 .volume-widget .label {
     background-color: #232634;
@@ -323,14 +323,14 @@
 
 .power-menu-widget {
     background-color: #85c1dc;
-    padding: 0;
+    padding: 0 3;
 }
 
 .power-menu-widget .label {
     color: #232634;
-    padding: 0 8px;
-    font-weight: bold;
-    font-size: 14px;
+    padding: 0 6px;
+    text-align: right;
+    font-size: 16px;
 }
 
 
@@ -340,7 +340,7 @@
 }
 .brightness-widget .icon {
     color: #232634;
-    padding: 0 6px;
+    padding: 0 9px;
 }
 .brightness-widget .label {
     background-color: #232634;
@@ -472,15 +472,15 @@
 }
 .server-widget .icon {
     color: #a6da95;
-    padding: 0 6px;
+    padding: 0 9px;
 }
 .server-widget .warning .icon {
     color: #eed49f;
-    padding: 0 6px;
+    padding: 0 9px;
 }
 .server-widget .error .icon {
     color: #ed8796;
-    padding: 0 6px;
+    padding: 0 9px;
 }
 .server-menu {
     background-color:#232634;
@@ -492,7 +492,7 @@
     padding-left: 18px;
     padding-bottom: 8px;
     padding-top: 8px;
-    font-family: 'JetBrainsMono NFP', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Maple Mono NF', Tahoma, Geneva, Verdana, sans-serif;
 }
 .server-menu-header .reload-button {
     font-size: 16px;
@@ -505,7 +505,7 @@
     background-color:#303446;
 } 
 .server-menu-container .row {
-    font-family: 'JetBrainsMono NFP', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Maple Mono NF', Tahoma, Geneva, Verdana, sans-serif;
     max-height: 40px;
     padding:8px;
     border-radius: 6px;
@@ -521,19 +521,19 @@
     font-weight: 600;
     padding: 6px 10px 2px 10px;
     color: #838ba7;
-    font-family: 'JetBrainsMono NFP', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Maple Mono NF', Tahoma, Geneva, Verdana, sans-serif;
 }
 .server-menu-container .status {
     font-size: 24px;
     padding-right: 10px;
-    font-family: 'JetBrainsMono NFP', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Maple Mono NF', Tahoma, Geneva, Verdana, sans-serif;
 }
 .server-menu-container .details {
     font-size: 11px;
     font-weight: 600;
     padding: 2px 10px 6px 10px;
     color: #838ba7;
-    font-family: 'JetBrainsMono NFP', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Maple Mono NF', Tahoma, Geneva, Verdana, sans-serif;
 }
 .server-menu-container .row.online .status {
     color: #a6d189
@@ -545,7 +545,7 @@
     color: #e5c890
 }
 .server-menu-container .placeholder {
-    font-family: 'JetBrainsMono NFP', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Maple Mono NF', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
     font-weight: 600;
     color: #cdd6f4;
@@ -558,7 +558,7 @@
 }
 .server-menu-overlay .text{
     padding: 8px;
-    font-family: 'JetBrainsMono NFP', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Maple Mono NF', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
     font-weight: 600;
     color: #c6d0f5;
@@ -580,7 +580,7 @@
 .home-menu .menu-item {
     padding: 6px 48px 7px 16px;
     font-size: 12px;
-    font-family: 'JetBrainsMono NFP', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Maple Mono NF', Tahoma, Geneva, Verdana, sans-serif;
     color: var(--text); 
     font-weight: 600;
 }
