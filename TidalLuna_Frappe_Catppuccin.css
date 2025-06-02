@@ -1,0 +1,188 @@
+* {
+  font-family: "JetBrainsMono NFM", sans-serif;
+}
+
+
+[id^="main"] {
+    background-color: #303446;
+    background-size: cover;
+}
+
+.textMax--ADaW_ {
+    color: #f4b8e4;
+}
+
+.textHigh--qvNFM {
+    color: #e5c890;
+}
+
+[class^="rowContainer"] {
+    color:#c6d0f5;
+}
+
+[class^="icon--dd0Ta icon--i90iz"],
+[class^="icon--dd0Ta plusIcon--sLnYM"] {
+    color: #85c1dc !important;
+}
+
+.listHeaderContainer--ExadB span.listHeader--JB2Qx {
+    color: #f4b8e4;
+}
+
+[class^="bitInfo"] {
+    color:#c6d0f5;
+}
+
+[id^="headerColumn"],  
+.wave-text-description-demi,
+.wave-text-description-medium {
+    color: #c6d0f5;
+    font-weight: 600;
+}
+
+[id^="headerColumn"],  
+.wave-text-body-medium {
+    color: #f4b8e4;
+    font-weight: 600;
+}
+
+[class^="dateAdded"],
+[class^="volumeIcon"],
+[class^="timeColumn"]  {
+    color: #c6d0f5 !important;
+}
+
+[class^="item"],
+[class^="titleCell"],
+[class^="createdBy"],
+[class^="albumText"],
+[class^="contributionText"],
+[class^="releaseddateColumn"] {
+    color: #c6d0f5 !important;
+}
+
+[id^="headerColumn"],  
+[class^="titleColumn"],
+[class^="closeButton"],
+.wave-text-title-bold, 
+.wave-text-body-demi, 
+.wave-text-body-bold {
+    color: #c6d0f5;
+    font-weight: 600;
+}
+
+[class^="button"], 
+.favoriteButton--tzxng,
+.blockButton--LZ3N5,
+.buttonsContainer--nH8Rd button,
+.section--PSIay .iconContextButton--RsFRi,
+.baseButton--rqEqg svg,
+.removeButton--xP6YP,
+.icon--w7IgY,
+.icon--QIhoc,
+.contextMenuButton--MUBcz {
+    color: #f4b8e4 !important;
+}
+
+button[aria-label="play"]{
+    background-color: #303446 !important;
+}
+
+button[aria-label="Shuffle"]{
+  background-color: #303446 !important;
+}
+
+button[aria-label="Previous"], button[aria-label="Next"] {
+    color: #f4b8e4;
+}
+
+[class^="playbackButton"] [class^="icon"] {
+    color: #f4b8e4;
+}
+
+[class^="player"] button.withBackground {
+    color: #f4b8e4;
+}
+
+[class^="player"] button.withBackground[aria-checked=true] {
+background-color: #303446;
+    color: #89b4fa;
+}
+
+button.feedBell--XaJus {
+background-color: #303446;
+}
+
+.button--yO9Cd {
+background-color: #232634;
+}
+
+button.feedBell--XaJus svg {
+    fill: #f4b8e4 !important;
+}
+
+.moreContainer--JnBwQ button svg {
+    color: #f4b8e4;
+}
+
+[class^="containerRow"] {
+  max-height: none !important;
+}
+
+[class^="mainContainer"] {
+  height: 100vh !important;
+  background-color: #232634;
+}
+
+:root {
+  --wave-color-solid-accent-fill: #f4b8e4;
+  --wave-color-solid-base-brighter: #303446;
+}
+
+main > [data-type="page"] {
+  margin-bottom: 128px;
+}
+
+.feed--BA4Uv {
+gap: 10px !important;
+}
+
+[data-wave-number-of-lines="1"], [data-wave-number-of-lines="2"] {
+-webkit-box-orient: horizontal;
+}
+
+.headerText--PHvCV {
+font-weight: 500 !important;
+}
+
+.enable-scrollbar-styles ::-webkit-scrollbar {
+    max-width: 8px;
+}
+
+
+/*bottom bar */
+#footerPlayer {
+    background-color: #303446;
+}
+
+
+
+.title--GbkoC {
+    color: #e78284;
+}
+
+.subTitle--OmgBp {
+    color: #f4b8e4;
+}
+
+.actionTextInner--opont {
+    color: #c6d0f5;
+}
+
+[class^="header-background"] {
+  opacity: 0.0;
+}
+
+[class^="css-6np8kg"] > :not(:last-child) {
+  display: none;
+}
