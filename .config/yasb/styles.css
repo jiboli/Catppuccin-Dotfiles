@@ -458,27 +458,29 @@
 
 
 .server-widget {
-        background-color: #85c1dc;
+        background-color: #303446;
     padding: 0;
 }
 .server-widget .label {
-    background-color: #232634;
+    background-color: #a6da95;
     margin: 1px;
     border-radius: 6px;
     padding: 0 6px;
-    color: #85c1dc;
+    color: #303446;
     min-width: 50;
     
 }
 .server-widget .icon {
-    color: #232634;
+    color: #a6da95;
     padding: 0 6px;
 }
 .server-widget .warning .icon {
-    color: #232634
+    color: #eed49f;
+    padding: 0 6px;
 }
 .server-widget .error .icon {
-    color: #232634
+    color: #ed8796;
+    padding: 0 6px;
 }
 .server-menu {
     background-color:#232634;
